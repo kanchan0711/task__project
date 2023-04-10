@@ -1,7 +1,6 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.png";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+
+import HeroImage from "../assets/heroImage.jpg";
+
 
 const Home = () => {
   return (
@@ -18,26 +17,14 @@ const Home = () => {
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nesciunt voluptas veniam ipsa odio deserunt praesentium sed illo culpa accusantium, libero velit necessitatibus, tempora dicta. Voluptatibus asperiores doloremque deserunt dolores!
           </p>
 
-           {/* <div>
-             <Link
-               to="portfolio"
-               smooth
-               duration={500}
-               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-             >
-               Portfolio
-               <span className="group-hover:rotate-90 duration-300">
-                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-               </span>
-             </Link>
-          </div> */}
+       
         </div>
 
         <div>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto  md:w-full"
           />
         </div>
       </div>
